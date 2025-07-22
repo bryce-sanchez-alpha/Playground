@@ -1,0 +1,19 @@
+[project]
+name = "pdm-test-1"
+version = "0.0.0"
+description = "Try using pdm"
+authors = [
+    {name = "Author name", email = "Author email"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "What"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true

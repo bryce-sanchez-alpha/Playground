@@ -1,0 +1,19 @@
+[project]
+name = "pdm-test"
+version = "0.0.1"
+description = "Testing project"
+authors = [
+    {name = "Author name", email = "Author email"},
+]
+dependencies = ["discord-py>=2.5.2"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
